@@ -1281,10 +1281,9 @@ body.is-touch {
   /* Header */
 
   #header {
-    padding: ($size-header-pad * 2) $size-header-pad $size-header-pad
-      $size-header-pad;
+    padding: ($size-header-pad * 2) $size-header-pad $size-header-pad;
     width: $size-header-width;
-
+    height: 100vh;
     h1 {
       font-size: 1.25em;
 
@@ -1356,7 +1355,7 @@ body.is-touch {
     background-position: top left, center center;
     background-size: auto, cover;
     left: auto;
-    padding: ($size-header-pad * 1.5) $size-header-pad;
+    padding: ($size-header-pad * 2.5) $size-header-pad;
     position: relative;
     text-align: center;
     top: auto;
@@ -1463,7 +1462,7 @@ body.is-touch {
   /* Header */
 
   #header {
-    padding: ($size-header-pad * 1.5) $size-header-pad;
+    padding: ($size-header-pad * 5) $size-header-pad;
 
     h1 {
       font-size: 1.35em;
@@ -1586,7 +1585,9 @@ body.is-touch {
 }
 
 .skills a {
+  display: inline-block;
   padding: 0 0.5rem;
   border-bottom: none !important;
   color: rgb(162, 162, 162);
+  overflow-x: word-break;
 }
