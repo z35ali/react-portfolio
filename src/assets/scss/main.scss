@@ -47,8 +47,6 @@ $size-header-pad: 4em;
 
 body {
   background: _palette(bg);
-  overflow-x: hidden;
-
   &.is-loading {
     *,
     *:before,
@@ -1065,6 +1063,7 @@ input[type='button'],
   max-width: 50em + $size-header-pad;
   padding: $size-header-pad/2 $size-header-pad $size-header-pad $size-header-pad;
   width: calc(100% - #{$size-header-width});
+  overflow-x: hidden;
 
   > section {
     border-top: solid 2px _palette(border);
