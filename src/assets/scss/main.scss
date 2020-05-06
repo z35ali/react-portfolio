@@ -989,7 +989,11 @@ input[type='button'],
 
   > .inner {
     @include vendor('flex-grow', '1');
-    margin: 0 0 ($size-header-pad * 0.5) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0px;
   }
 
   strong,
@@ -1021,6 +1025,7 @@ input[type='button'],
 /* Footer */
 
 #footer {
+  padding-bottom: 400px;
   .icons {
     margin: (_size(element-margin) * 0.5) 0 0 0;
 
@@ -1322,6 +1327,7 @@ body.is-touch {
 
 @include breakpoint(medium) {
   $size-header-pad: 4em;
+  $size-header-pad-top-bottom: 20vh;
 
   /* Basic */
 
@@ -1355,7 +1361,7 @@ body.is-touch {
     background-position: top left, center center;
     background-size: auto, cover;
     left: auto;
-    padding: ($size-header-pad * 2.5) $size-header-pad;
+    padding: $size-header-pad-top-bottom $size-header-pad;
     position: relative;
     text-align: center;
     top: auto;
@@ -1376,8 +1382,7 @@ body.is-touch {
   #footer {
     bottom: auto;
     left: auto;
-    padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5)
-      $size-header-pad;
+    padding: 30px ($size-header-pad * 1.5) $size-header-pad;
     position: relative;
     text-align: center;
     width: 100%;
@@ -1412,6 +1417,7 @@ body.is-touch {
 
 @include breakpoint(small) {
   $size-header-pad: 2.2em;
+  $size-header-pad-top-bottom: 20vh;
 
   /* Basic */
 
@@ -1462,17 +1468,21 @@ body.is-touch {
   /* Header */
 
   #header {
-    padding: ($size-header-pad * 5) $size-header-pad;
+    padding: $size-header-pad-top-bottom $size-header-pad;
 
     h1 {
       font-size: 1.35em;
+    }
+
+    > .inner {
+      margin-bottom: 30px;
     }
   }
 
   /* Footer */
 
   #footer {
-    padding: ($size-header-pad * 1.5) $size-header-pad;
+    padding: 0 $size-header-pad;
   }
 
   /* Main */
