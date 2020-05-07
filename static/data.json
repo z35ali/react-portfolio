@@ -46,7 +46,7 @@
       {
         "name": "blog",
         "url": "https://developingmindset.com/",
-        "className": "icon fa-newspaper-o",
+        "className": "icon fa-rss",
         "title": "Blog"
       }
     ]
