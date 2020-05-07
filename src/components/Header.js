@@ -11,11 +11,10 @@ const Header = (props) => (
 
     <header
       id="header"
-      style={{ zIndex: 2 }}
       style={{
+        zIndex: 1,
         backgroundImage:
           "url('../images/overlay.png'), url('../images/bg.jpg')",
-        zIndex: 1,
       }}
     >
       <div className="inner">

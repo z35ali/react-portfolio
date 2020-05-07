@@ -6,7 +6,7 @@ const Footer = (props) => (
       <ul className="icons">
         {props.mainData.social.map((socialItem, i) => {
           return (
-            <li>
+            <li key={i}>
               <a
                 href={socialItem.url}
                 target="_blank"

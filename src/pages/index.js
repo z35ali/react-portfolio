@@ -51,7 +51,6 @@ export default class index extends Component {
     const siteTitle = "Zafar Ali's Portfolio"
     const siteDescription = "Zafar Ali's Portfolio"
     const { status, resumeData } = this.state
-    console.log(resumeData)
     return (
       <Layout>
         <Helmet>
@@ -88,14 +87,14 @@ export default class index extends Component {
                 <h2>Education</h2>
                 {resumeData.resume.education.map((education, i) => {
                   return (
-                    <>
+                    <div key={i}>
                       <span>
                         <h4>{education.school}</h4>
                         <h5>{education.degree}</h5>
                       </span>
                       <ul>
                         {education.descriptions.map((description, i) => {
-                          return <li>{description}</li>
+                          return <li key={i}>{description}</li>
                         })}
                       </ul>
                       {education.diploma ? (
@@ -112,7 +111,7 @@ export default class index extends Component {
                           </li>
                         </ul>
                       ) : null}
-                    </>
+                    </div>
                   )
                 })}
               </section>
@@ -121,7 +120,7 @@ export default class index extends Component {
 
                 {resumeData.resume.work.map((work, i) => {
                   return (
-                    <>
+                    <div key={i}>
                       <span>
                         <h4>{work.company}</h4>
                         <h5>
@@ -130,10 +129,10 @@ export default class index extends Component {
                       </span>
                       <ul>
                         {work.descriptions.map((description, i) => {
-                          return <li>{description}</li>
+                          return <li key={i}>{description}</li>
                         })}
                       </ul>
-                    </>
+                    </div>
                   )
                 })}
               </section>
@@ -144,7 +143,7 @@ export default class index extends Component {
                 <div className="skills">
                   {resumeData.resume.skills.map((skill, i) => {
                     return (
-                      <>
+                      <div key={i}>
                         <h4>{skill.type}</h4>
                         <p>
                           {skill.subSkills.map((subSkills, i) => {
@@ -155,13 +154,14 @@ export default class index extends Component {
                                   .join('OR')}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                key={i}
                               >
                                 {subSkills.name}
                               </a>
                             )
                           })}
                         </p>
-                      </>
+                      </div>
                     )
                   })}
                 </div>
