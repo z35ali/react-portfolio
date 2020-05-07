@@ -1,26 +1,35 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../../public/images/avatar.jpg'
 
 import Navigation from './Navigation'
 
-const Header = () => (
+const Header = (props) => (
   <>
     <Navigation />
-    <header id="header" style={{ zIndex: 2 }}>
+
+    <header
+      id="header"
+      style={{ zIndex: 2 }}
+      style={{
+        backgroundImage:
+          "url('../images/overlay.png'), url('../images/bg.jpg')",
+        zIndex: 1,
+      }}
+    >
       <div className="inner">
         <a href="#about" className="image avatar">
           <img src={avatar} alt="" />
         </a>
         <h1>
-          <strong>I'm Zafar Ali</strong>
+          <strong>I'm {props.mainData.name}</strong>
         </h1>
-        <h1>Full Stack Web Developer</h1>
-        <h5>Developing myself and my code!</h5>
+        <h1>{props.mainData.title}</h1>
+        <h5>{props.mainData.subtitle}</h5>
       </div>
 
-      <Footer />
+      <Footer mainData={props.mainData} />
     </header>
   </>
 )

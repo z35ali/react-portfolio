@@ -1,13 +1,6 @@
 import React from 'react'
 import '../assets/scss/main.scss'
 
-import Header from './Header'
-
-const Template = ({ children }) => (
-  <div>
-    <Header />
-    {children}
-  </div>
-)
+const Template = ({ children }) => <div>{children}</div>
 
 export default Template

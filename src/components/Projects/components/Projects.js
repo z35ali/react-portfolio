@@ -1,16 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import GalleryItem from './GalleryItem'
-import { DEFAULT_IMAGES } from '../constants/defaultImages'
+import ProjectsItem from './ProjectItem'
 
-const Gallery = ({ images = DEFAULT_IMAGES }) => {
+const Projects = ({ projects }) => {
   return (
     <div>
-      {images && (
+      {projects && (
         <div className="row">
-          {images.map((obj) => {
+          {projects.map((obj) => {
             return (
-              <GalleryItem
+              <ProjectsItem
                 key={obj.id}
                 id={obj.id}
                 source={obj.source}
@@ -28,9 +27,9 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
   )
 }
 
-Gallery.displayName = 'Gallery'
-Gallery.propTypes = {
-  images: PropTypes.array,
+Projects.displayName = 'Projects'
+Projects.propTypes = {
+  projects: PropTypes.array,
 }
 
-export default Gallery
+export default Projects

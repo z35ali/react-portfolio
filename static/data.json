@@ -1,0 +1,220 @@
+{
+  "main": {
+    "name": "Zafar Ali",
+    "title": "Full Stack Web Developer",
+    "subtitle": "Developing myself and my code!",
+    "description": "who curiously strives to develop clean and readable code to solve problems",
+    "image": "profilepic.jpg",
+    "websiteDesign": "Designed with Gatsby and React",
+    "about": "I'm a Toronto based Full Stack Developer who curiously strives to develop clean and readable code to solve problems. I love to turn ideas into reality through code. I have experience in Agile environments and a variety of languages and tools.",
+    "hobbies": "My hobbies include going to the gym, coding, reading, and doing problem solving puzzles. My personality type is someone who is never satisfied and always feels a need to push myself!",
+    "contact": {
+      "contactTitle": "Get In Touch",
+      "contactMessage": " I would love to get in touch with you, feel free to send me an email!",
+      "email": "zafar.a.ali2@gmail.com",
+      "github": "https://github.com/z35ali/",
+      "phone": "Available upon request",
+      "address": {
+        "city": "Toronto",
+        "province": "Ontario",
+        "country": "Canada"
+      }
+    },
+    "website": "zafaraali.com",
+    "resumeView": "https://drive.google.com/file/d/1MWtvwys9udVtRg8c7RHDXoruXBSUJX8V/view",
+    "social": [
+      {
+        "name": "github",
+        "url": "http://github.com/z35ali",
+        "className": "icon fa-github",
+        "title": "GitHub"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/zafar-ali-a7a512128/",
+        "className": "icon fa-linkedin",
+        "title": "LinkedIn"
+      },
+      {
+        "name": "email",
+        "url": "mailto:zafar.a.ali2@gmail.com",
+        "className": "icon fa-envelope-o",
+        "title": "Email"
+      },
+      {
+        "name": "blog",
+        "url": "https://developingmindset.com/",
+        "className": "icon fa-newspaper-o",
+        "title": "Blog"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Ryerson University",
+        "degree": "Honours Bachelor's of Science in Computer Science",
+        "graduated": "October 2019",
+        "descriptions": [
+          "During my time at Ryerson, I worked on many group projects utilizing the agile manifesto and GIT in order to meet deadlines accordingly without sacrificing application functionality."
+        ],
+        "diploma": "https://drive.google.com/open?id=1UTQrJQW6JnWItHGiaHlwraMG5cQoYqNZ"
+      }
+    ],
+    "work": [
+      {
+        "company": "meshMD",
+        "title": "Full Stack Developer",
+        "years": "February 2020 - Present",
+        "descriptions": [
+          "Develop patient support program portals for pharmaceutical companies in Canada within the scopes of development and test environments using a C# backend and React front end.",
+          "Collaborate with Project Managers, Design, and QA teams to ensure software validation and verification, creating issues on GitHub if fixes are necessary.",
+          "Encapsulate all patient, clinic, and portal data within the circle of care in database and ensure authorized access."
+        ]
+      },
+      {
+        "company": "Hatch Coding",
+        "title": "Administrative Programming Coach",
+        "years": "September 2016 - February 2019",
+        "descriptions": [
+          "Tutored students in JavaScript by developing projects, testing, and marking code.",
+          "Guided assistant coaches in the right direction when teaching students."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "type": "Front End",
+        "subSkills": [
+          {
+            "name": "HTML and CSS"
+          },
+          {
+            "name": "JQuery"
+          },
+          {
+            "name": "SCSS and SASS"
+          },
+          {
+            "name": "Bootstrap"
+          },
+          {
+            "name": "Material-UI"
+          },
+          {
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "type": "Servers and Databases",
+        "subSkills": [
+          {
+            "name": "NodeJS and Express"
+          },
+          {
+            "name": "SQL"
+          },
+          {
+            "name": "MongoDB"
+          },
+          {
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
+        "type": "Backend",
+        "subSkills": [
+          {
+            "name": "C#"
+          },
+          {
+            "name": "Python"
+          },
+          {
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
+        "type": "Other Tools",
+        "subSkills": [
+          {
+            "name": "Strapi"
+          },
+          {
+            "name": "GraphQL"
+          }
+        ]
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "1",
+      "source": "../../images/thumbs/01.png",
+      "thumbnail": "../../images/thumbs/01.png",
+      "caption": "Developing Mindset Blog",
+      "description": "My personal blog created with Gatsby and Contentful.",
+      "demo": "https://developingmindset.com/",
+      "github": "https://github.com/z35ali/personal-blog"
+    },
+    {
+      "id": "2",
+      "source": "../../images/thumbs/02.png",
+      "thumbnail": "../../images/thumbs/02.png",
+      "caption": "React Shoes Shop",
+      "description": "An ecommerce shoe website with a functioning cart and signup/sigin.",
+      "demo": "https://shoes-shop.netlify.app/",
+      "github": "https://github.com/z35ali/ecommerce-react-graphql"
+    },
+    {
+      "id": "3",
+      "source": "../../images/thumbs/03.png",
+      "thumbnail": "../../images/thumbs/03.png",
+      "caption": "React Palettes",
+      "description": "A React color selection app that allows the user to copy colors from various palettes.",
+      "demo": "https://react-palettes.netlify.app/",
+      "github": "https://github.com/z35ali/react-palettes"
+    },
+    {
+      "id": "4",
+      "source": "../../images/thumbs/04.png",
+      "thumbnail": "../../images/thumbs/04.png",
+      "caption": "React Evernote Clone",
+      "description": "A React Evernote clone that uses Firebase Authentication and Database.",
+      "demo": "https://react-evernote-clone.netlify.app/",
+      "github": "https://github.com/z35ali/evernote-clone"
+    },
+    {
+      "id": "5",
+      "source": "../../images/thumbs/05.png",
+      "thumbnail": "../../images/thumbs/05.png",
+      "caption": "Node Todo",
+      "description": "A NodeJS todo list that uses the express framework with a MongoDB database.",
+      "demo": "https://node-list-todo.herokuapp.com/",
+      "github": "https://github.com/z35ali/node-todo/"
+    },
+    {
+      "id": "6",
+      "source": "../../images/thumbs/06.png",
+      "thumbnail": "../../images/thumbs/06.png",
+      "caption": "React Lyric Finder",
+      "description": "A React app that uses the MusixMatch API to find song lyrics.",
+      "demo": "https://lyricfinder.netlify.app/",
+      "github": "https://github.com/z35ali/lyricfinder/"
+    },
+    {
+      "id": "7",
+      "source": "../../images/thumbs/07.png",
+      "thumbnail": "../../images/thumbs/07.png",
+      "caption": "React Youtube API Search",
+      "description": "A React app that allows users to search and play videos from the Youtube V3 API.",
+      "demo": "https://youtubeapi-search.netlify.app/",
+      "github": "https://github.com/z35ali/youtubeApi-search"
+    }
+  ]
+}

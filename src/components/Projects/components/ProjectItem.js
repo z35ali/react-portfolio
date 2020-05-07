@@ -1,7 +1,14 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
 
-const GalleryItem = ({ id, thumbnail, caption, description, github, demo }) => {
+const ProjectsItem = ({
+  id,
+  thumbnail,
+  caption,
+  description,
+  github,
+  demo,
+}) => {
   useCallback()
 
   return (
@@ -31,8 +38,8 @@ const GalleryItem = ({ id, thumbnail, caption, description, github, demo }) => {
   )
 }
 
-GalleryItem.displayName = 'GalleryItem'
-GalleryItem.propTypes = {
+ProjectsItem.displayName = 'ProjectsItem'
+ProjectsItem.propTypes = {
   id: PropTypes.string.isRequired,
   source: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
@@ -42,4 +49,4 @@ GalleryItem.propTypes = {
   demo: PropTypes.string.isRequired,
 }
 
-export default GalleryItem
+export default ProjectsItem

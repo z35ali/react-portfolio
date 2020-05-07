@@ -11,6 +11,7 @@
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sass": "^2.2.1",
     "glamor": "^2.20.40",
+    "jquery": "^3.5.1",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
