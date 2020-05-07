@@ -24,7 +24,11 @@ const Footer = (props) => (
         <li>
           {props.mainData.name} {new Date().getFullYear()}
         </li>
-        <li>{props.mainData.websiteDesign}</li>
+        <li>
+          <a href={props.mainData.websiteGithub}>
+            {props.mainData.websiteDesign}
+          </a>
+        </li>
       </ul>
     </div>
   </div>

@@ -8,6 +8,7 @@
     "description": "who curiously strives to develop clean and readable code to solve problems",
     "image": "profilepic.jpg",
     "websiteDesign": "Designed with Gatsby and React",
+    "websiteGithub": "https://github.com/z35ali/react-portfolio",
     "about": "I'm a Toronto based Full Stack Developer who curiously strives to develop clean and readable code to solve problems. I love to turn ideas into reality through code. I have experience in Agile environments and a variety of languages and tools.",
     "hobbies": "My hobbies include going to the gym, coding, reading, and doing problem solving puzzles. My personality type is someone who is never satisfied and always feels a need to push myself!",
     "contact": {
