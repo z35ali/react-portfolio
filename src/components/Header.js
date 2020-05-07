@@ -8,7 +8,6 @@ import Navigation from './Navigation'
 const Header = (props) => (
   <>
     <Navigation />
-
     <header
       id="header"
       style={{

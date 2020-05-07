@@ -5,7 +5,6 @@ export default function Work(props) {
   return (
     <section id="work">
       <h2>Work</h2>
-
       {work.map((work, i) => {
         return (
           <div key={i}>

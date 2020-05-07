@@ -5,7 +5,6 @@ export default function About(props) {
   return (
     <section id="about">
       <h2>About Me</h2>
-
       <p>{about}</p>
       <p>{hobbies}</p>
       <ul className="actions">
