@@ -1,6 +1,8 @@
 {
   "main": {
     "name": "Zafar Ali",
+    "siteTitle": "Zafar Ali's Portfolio",
+    "siteDescription": "Zafar Ali's Portfolio",
     "title": "Full Stack Web Developer",
     "subtitle": "Developing myself and my code!",
     "description": "who curiously strives to develop clean and readable code to solve problems",
