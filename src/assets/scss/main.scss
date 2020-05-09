@@ -1489,7 +1489,7 @@ body.is-touch {
   /* Main */
 
   #main {
-    padding: ($size-header-pad * 1.5) $size-header-pad
+    padding: ($size-header-pad * 0.9) $size-header-pad
       (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
 
     > section {
