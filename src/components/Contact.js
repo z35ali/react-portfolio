@@ -24,7 +24,13 @@ export default class Contact extends Component {
     xhr.send(data)
   }
   render() {
-    const { contactTitle, contactMessage, address, email } = this.props.contact
+    const {
+      contactTitle,
+      contactMessage,
+      address,
+      email,
+      phone,
+    } = this.props.contact
     const { status } = this.state
     return (
       <section id="contact">
@@ -89,13 +95,7 @@ export default class Contact extends Component {
                 <h3 className="icon fa-mobile">
                   <span className="label">Phone</span>
                 </h3>
-                Available upon request
-              </li>
-              <li>
-                <h3 className="icon fa-envelope-o">
-                  <span className="label">Email</span>
-                </h3>
-                {email}
+                {phone}
               </li>
             </ul>
           </div>

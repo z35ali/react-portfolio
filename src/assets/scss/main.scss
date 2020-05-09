@@ -927,7 +927,7 @@ input[type='button'],
   margin: 0 0 _size(element-margin) 0;
 
   .image {
-    margin: 0 0 (_size(element-margin) * 0.75) 0;
+    margin: 0 0 (_size(element-margin) * 0.5) 0;
   }
 
   h3 {
@@ -955,6 +955,10 @@ input[type='button'],
   backface-visibility: hidden;
   width: 200%;
   text-align: center;
+}
+
+.project-caption {
+  margin-bottom: 0.5px !important;
 }
 
 .demo {
@@ -1455,7 +1459,6 @@ body.is-touch {
     &.labeled-icons {
       li {
         padding-left: 2em;
-        word-break: break-all;
 
         h3 {
           line-height: 1.75em;
@@ -1465,9 +1468,8 @@ body.is-touch {
   }
 
   /* Header */
-
   #header {
-    padding: $size-header-pad-top-bottom $size-header-pad;
+    padding: 26vh 4em;
 
     h1 {
       font-size: 1.35em;

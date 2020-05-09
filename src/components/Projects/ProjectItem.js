@@ -22,8 +22,8 @@ const ProjectsItem = ({
         <img src={thumbnail} alt={caption} />
       </a>
 
-      <h4>{caption}</h4>
-      <h3>{description}</h3>
+      <h4 className="project-caption">{caption}</h4>
+
       <h5>
         <a
           className="github"
