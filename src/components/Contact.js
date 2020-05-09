@@ -24,13 +24,7 @@ export default class Contact extends Component {
     xhr.send(data)
   }
   render() {
-    const {
-      contactTitle,
-      contactMessage,
-      address,
-      email,
-      phone,
-    } = this.props.contact
+    const { contactTitle, contactMessage, address, phone } = this.props.contact
     const { status } = this.state
     return (
       <section id="contact">

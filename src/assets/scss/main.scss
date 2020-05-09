@@ -1469,7 +1469,7 @@ body.is-touch {
 
   /* Header */
   #header {
-    padding: 26vh 4em;
+    padding: $size-header-pad-top-bottom $size-header-pad;
 
     h1 {
       font-size: 1.35em;
