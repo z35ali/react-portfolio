@@ -43,12 +43,6 @@
         "url": "mailto:zafar.a.ali2@gmail.com",
         "className": "icon fa-envelope-o",
         "title": "Email"
-      },
-      {
-        "name": "blog",
-        "url": "https://developingmindset.com/",
-        "className": "icon fa-rss",
-        "title": "Blog"
       }
     ]
   },
@@ -159,7 +153,7 @@
       "thumbnail": "../../images/thumbs/01.png",
       "caption": "Developing Mindset Blog",
       "description": "My personal blog created with Gatsby and Contentful.",
-      "demo": "https://developingmindset.com/",
+      "demo": "https://zafar-blog.netlify.app/",
       "github": "https://github.com/z35ali/personal-blog"
     },
     {
