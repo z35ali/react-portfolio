@@ -65,7 +65,8 @@
         "title": "Full Stack Developer",
         "years": "February 2020 - Present",
         "descriptions": [
-          "Develop patient support program portals for pharmaceutical companies in Canada within the scopes of development and test environments using a C# backend and React front end.",
+          "Develop patient support program portals for pharmaceutical companies in Canada such as Merck, Pfizer, and Roche.",
+          "Synchronize dev and test environments using a C# backend and React front end.",
           "Collaborate with Project Managers, Design, and QA teams to ensure software validation and verification, creating issues on GitHub if fixes are necessary.",
           "Encapsulate all patient, clinic, and portal data within the circle of care in database and ensure authorized access."
         ]
@@ -85,7 +86,7 @@
         "type": "Front End",
         "subSkills": [
           {
-            "name": "React"
+            "name": "React and Redux"
           },
           {
             "name": "HTML and CSS"
@@ -105,11 +106,19 @@
         ]
       },
       {
-        "type": "Servers and Databases",
+        "type": "Backend",
         "subSkills": [
           {
-            "name": "NodeJS and Express"
+            "name": "C#"
           },
+          {
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "type": "Database",
+        "subSkills": [
           {
             "name": "SQL"
           },
@@ -122,13 +131,27 @@
         ]
       },
       {
-        "type": "Backend",
+        "type": "Server",
         "subSkills": [
           {
-            "name": "C#"
+            "name": "NodeJS and Express"
           },
           {
-            "name": "Python"
+            "name": "PHP"
+          }
+        ]
+      },
+      {
+        "type": "Deployment",
+        "subSkills": [
+          {
+            "name": "Netlify"
+          },
+          {
+            "name": "Heroku"
+          },
+          {
+            "name": "Git"
           }
         ]
       },
@@ -139,7 +162,27 @@
             "name": "Strapi"
           },
           {
-            "name": "GraphQL"
+            "name": "Contentful"
+          },
+          {
+            "name": "GraphQl"
+          }
+        ]
+      },
+      {
+        "type": "Knowledge",
+        "subSkills": [
+          {
+            "name": "Responsive Design"
+          },
+          {
+            "name": "Agile Method"
+          },
+          {
+            "name": "Version Control (Git)"
+          },
+          {
+            "name": "Data Structures"
           }
         ]
       }
