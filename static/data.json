@@ -65,7 +65,7 @@
         "title": "Full Stack Developer",
         "years": "February 2020 - Present",
         "descriptions": [
-          "Develop patient support program portals for pharmaceutical companies in Canada such as Merck, Pfizer, and Roche.",
+          "Develop patient support program portals for pharmaceutical companies such as Merck, Pfizer, and Roche.",
           "Synchronize dev and test environments using a C# backend and React front end.",
           "Collaborate with Project Managers, Design, and QA teams to ensure software validation and verification, creating issues on GitHub if fixes are necessary.",
           "Encapsulate all patient, clinic, and portal data within the circle of care in database and ensure authorized access."
