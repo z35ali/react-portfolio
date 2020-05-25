@@ -10,9 +10,9 @@ export default function Skills(props) {
           return (
             <div key={i}>
               <h4>{skill.type}</h4>
-              <p>
-                {skill.subSkills.map((subSkills, i) => {
-                  return (
+              {skill.subSkills.map((subSkills, i) => {
+                return !(skill.type === 'Knowledge') ? (
+                  <p>
                     <a
                       href={`https://github.com/z35ali?tab=repositories&q=${subSkills.name
                         .split('and')
@@ -23,9 +23,11 @@ export default function Skills(props) {
                     >
                       {subSkills.name}
                     </a>
-                  )
-                })}
-              </p>
+                  </p>
+                ) : (
+                  <p>{subSkills.name}</p>
+                )
+              })}
             </div>
           )
         })}

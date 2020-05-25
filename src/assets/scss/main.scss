@@ -1595,7 +1595,8 @@ body.is-touch {
   }
 }
 
-.skills a {
+.skills a,
+.skills p {
   display: inline-block;
   padding: 0 0.5rem;
   border-bottom: none !important;
