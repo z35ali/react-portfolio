@@ -87,6 +87,23 @@ a {
   }
 }
 
+#footer a {
+  @include vendor(
+    'transition',
+    (
+      'color #{_duration(transition)} ease-in-out',
+      'border-color #{_duration(transition)} ease-in-out'
+    )
+  );
+  color: _palette(accent1, bg);
+  text-decoration: none !important;
+
+  &:hover {
+    border-bottom-color: transparent;
+    color: white !important;
+    text-decoration: none;
+  }
+}
 strong,
 b {
   color: _palette(fg-bold);
@@ -980,6 +997,7 @@ input[type='button'],
   height: 100%;
   left: 0;
   padding: ($size-header-pad * 2) $size-header-pad;
+  padding-top: 7em;
   position: fixed;
   text-align: center;
   top: 0;
@@ -1595,11 +1613,15 @@ body.is-touch {
   }
 }
 
+.skills h4 {
+  color: _palette(fg-bold);
+}
+
 .skills a,
 .skills p {
   display: inline-block;
   padding: 0 0.5rem;
   border-bottom: none !important;
-  color: rgb(162, 162, 162);
+  color: _palette(fg);
   overflow-x: word-break;
 }
