@@ -1379,7 +1379,7 @@ body.is-touch {
 
   #header {
     background-attachment: scroll;
-    background-position: top left, center center;
+    background-position: top left, bottom center;
     background-size: auto, cover;
     left: auto;
     padding: $size-header-pad-top-bottom $size-header-pad;
@@ -1388,6 +1388,7 @@ body.is-touch {
     top: auto;
     width: 100%;
     display: block;
+    height: 100vh;
 
     h1 {
       font-size: 1.75em;

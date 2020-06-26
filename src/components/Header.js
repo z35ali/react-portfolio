@@ -11,7 +11,7 @@ const Header = (props) => (
     <header
       id="header"
       style={{
-        zIndex: 1,
+        zIndex: 2,
         backgroundImage:
           "url('../images/overlay.png'), url('../images/bg.jpg')",
       }}
