@@ -990,7 +990,7 @@ input[type='button'],
   @include vendor('justify-content', 'space-between');
   background-color: _palette(accent2, bg);
   background-attachment: scroll, fixed;
-  background-position: top left, top left;
+  background-position: top bottom, bottom center;
   background-repeat: repeat, no-repeat;
   background-size: 40% 100%;
   color: _palette(accent2, fg);
@@ -1379,7 +1379,7 @@ body.is-touch {
 
   #header {
     background-attachment: scroll;
-    background-position: top left, bottom center;
+    background-position: top right, bottom center;
     background-size: auto, cover;
     left: auto;
     padding: $size-header-pad-top-bottom $size-header-pad;
@@ -1388,6 +1388,7 @@ body.is-touch {
     top: auto;
     width: 100%;
     display: block;
+    height: 100vh;
 
     h1 {
       font-size: 1.75em;
