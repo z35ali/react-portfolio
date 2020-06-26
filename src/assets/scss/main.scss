@@ -651,7 +651,7 @@ ul {
 
     li {
       display: inline-block;
-      padding: 0 1em 0 0;
+      padding: 0 1.5em 0 0;
 
       &:last-child {
         padding-right: 0;
@@ -1420,7 +1420,7 @@ body.is-touch {
   #footer {
     bottom: auto;
     left: auto;
-    padding: 30px ($size-header-pad * 1.5) $size-header-pad;
+    padding: 0.5em ($size-header-pad * 1.5) $size-header-pad;
     position: relative;
     text-align: center;
     width: 100%;
@@ -1510,7 +1510,7 @@ body.is-touch {
     }
 
     > .inner {
-      margin-bottom: 30px;
+      margin-bottom: 1em;
     }
   }
 
