@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../../public/images/avatar.jpg'
+import avatar from '../../static/images/avatar.jpg'
 
 import Navigation from './Navigation'
 
@@ -11,7 +11,7 @@ const Header = (props) => (
     <header
       id="header"
       style={{
-        zIndex: 2,
+        zIndex: 1,
         backgroundImage:
           "url('../images/overlay.png'), url('../images/bg.jpg')",
       }}

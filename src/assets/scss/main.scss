@@ -1377,6 +1377,23 @@ body.is-touch {
 
   /* Header */
 
+  nav {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    z-index: 2 !important;
+    margin-top: 5px;
+
+    button {
+      background: white !important;
+    }
+
+    .navbar-nav {
+      background: white;
+      width: 150px;
+      margin-top: 1rem;
+      border: 0.5px solid _palette(fg);
+    }
+  }
   #header {
     background-attachment: scroll;
     background-position: top right, bottom center;
@@ -1429,7 +1446,7 @@ body.is-touch {
 
   #main {
     margin: 0;
-    padding: ($size-header-pad / 2) $size-header-pad;
+    padding: 0 $size-header-pad ($size-header-pad / 2) $size-header-pad;
     width: 100%;
   }
 }
@@ -1488,7 +1505,7 @@ body.is-touch {
   /* Header */
   #header {
     padding: $size-header-pad-top-bottom $size-header-pad;
-
+    height: 100vh;
     h1 {
       font-size: 1.35em;
     }
@@ -1507,7 +1524,7 @@ body.is-touch {
   /* Main */
 
   #main {
-    padding: ($size-header-pad) $size-header-pad
+    padding: 0 $size-header-pad
       (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
 
     > section {
@@ -1620,7 +1637,7 @@ body.is-touch {
 .skills a,
 .skills p {
   display: inline-block;
-  padding: 0 0.5rem;
+  padding: 0 0.5rem 0 0;
   border-bottom: none !important;
   color: _palette(fg);
   overflow-x: word-break;
