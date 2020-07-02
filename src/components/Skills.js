@@ -14,7 +14,7 @@ export default function Skills(props) {
                 return !(skill.type === 'Knowledge') ? (
                   <p>
                     <a
-                      href={`https://github.com/z35ali?tab=repositories&q=${subSkills.name
+                      href={`https://github.com/zafaraali?tab=repositories&q=${subSkills.name
                         .split('and')
                         .join('OR')}`}
                       target="_blank"

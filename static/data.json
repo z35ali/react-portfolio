@@ -8,14 +8,14 @@
     "description": "who curiously strives to develop clean and readable code to solve problems",
     "image": "profilepic.jpg",
     "websiteDesign": "Designed with Gatsby and React",
-    "websiteGithub": "https://github.com/z35ali/react-portfolio",
+    "websiteGithub": "https://github.com/zafaraali/react-portfolio",
     "about": "I'm a Toronto based Full Stack Developer who curiously strives to develop clean and readable code to solve problems. I love to turn ideas into reality through code. I have experience in Agile environments and a variety of languages and tools.",
     "hobbies": "My hobbies include going to the gym, coding, reading, and doing problem solving puzzles. My personality type is someone who is never satisfied and always feels a need to push myself!",
     "contact": {
       "contactTitle": "Get In Touch",
       "contactMessage": " I would love to get in touch with you! Feel free to send me an email!",
       "email": "zafar.a.ali2@gmail.com",
-      "github": "https://github.com/z35ali/",
+      "github": "https://github.com/zafaraali/",
       "phone": "Available upon request",
       "address": {
         "city": "Toronto",
@@ -28,13 +28,13 @@
     "social": [
       {
         "name": "github",
-        "url": "http://github.com/z35ali",
+        "url": "http://github.com/zafaraali",
         "className": "icon fa-github",
         "title": "GitHub"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/zafar-ali-a7a512128/",
+        "url": "https://www.linkedin.com/in/zafaraali/",
         "className": "icon fa-linkedin",
         "title": "LinkedIn"
       },
@@ -197,7 +197,7 @@
       "caption": "Developing Mindset Blog",
       "description": "My personal blog created with Gatsby and Contentful.",
       "demo": "https://zafar-blog.netlify.app/",
-      "github": "https://github.com/z35ali/personal-blog"
+      "github": "https://github.com/zafaraali/personal-blog"
     },
     {
       "id": "2",
@@ -206,7 +206,7 @@
       "caption": "React Shoes Shop",
       "description": "An ecommerce shoe website with a functioning cart and signup/sigin.",
       "demo": "https://shoes-shop.netlify.app/",
-      "github": "https://github.com/z35ali/ecommerce-react-graphql"
+      "github": "https://github.com/zafaraali/ecommerce-react-graphql"
     },
     {
       "id": "3",
@@ -215,7 +215,7 @@
       "caption": "React Palettes",
       "description": "A React color selection app that allows the user to copy colors from various palettes.",
       "demo": "https://react-palettes.netlify.app/",
-      "github": "https://github.com/z35ali/react-palettes"
+      "github": "https://github.com/zafaraali/react-palettes"
     },
     {
       "id": "4",
@@ -224,7 +224,7 @@
       "caption": "React Evernote Clone",
       "description": "A React Evernote clone that uses Firebase Authentication and Database.",
       "demo": "https://react-evernote-clone.netlify.app/",
-      "github": "https://github.com/z35ali/evernote-clone"
+      "github": "https://github.com/zafaraali/evernote-clone"
     },
     {
       "id": "5",
@@ -233,7 +233,7 @@
       "caption": "Node Todo",
       "description": "A NodeJS todo list that uses the express framework with a MongoDB database.",
       "demo": "https://node-list-todo.herokuapp.com/",
-      "github": "https://github.com/z35ali/node-todo/"
+      "github": "https://github.com/zafaraali/node-todo/"
     },
     {
       "id": "6",
@@ -242,7 +242,7 @@
       "caption": "React Lyric Finder",
       "description": "A React app that uses the MusixMatch API to find song lyrics.",
       "demo": "https://lyricfinder.netlify.app/",
-      "github": "https://github.com/z35ali/lyricfinder/"
+      "github": "https://github.com/zafaraali/lyricfinder/"
     },
     {
       "id": "7",
@@ -251,7 +251,7 @@
       "caption": "React Youtube API Search",
       "description": "A React app that allows users to search and play videos from the Youtube V3 API.",
       "demo": "https://youtubeapi-search.netlify.app/",
-      "github": "https://github.com/z35ali/youtubeApi-search"
+      "github": "https://github.com/zafaraali/youtubeApi-search"
     }
   ]
 }
