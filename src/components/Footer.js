@@ -25,7 +25,11 @@ const Footer = (props) => (
           {props.mainData.name} {new Date().getFullYear()}
         </li>
         <li>
-          <a href={props.mainData.websiteGithub}>
+          <a
+            href={props.mainData.websiteGithub}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {props.mainData.websiteDesign}
           </a>
         </li>
