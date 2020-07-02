@@ -40,7 +40,7 @@
   )
 );
 
-$size-header-width: 35%;
+$size-header-width: 25%;
 $size-header-pad: 4em;
 
 /* Basic */
@@ -994,6 +994,7 @@ input[type='button'],
   background-repeat: repeat, no-repeat;
   background-size: 40% 100%;
   color: _palette(accent2, fg);
+  z-index: 1;
   height: 100%;
   left: 0;
   padding: ($size-header-pad * 2) $size-header-pad;
@@ -1063,7 +1064,6 @@ input[type='button'],
     padding: 0;
 
     li {
-      border-left: solid 1px _palette(accent2, border);
       display: inline-block;
       line-height: 1em;
       margin-left: 0.75em;
@@ -1301,7 +1301,7 @@ body.is-touch {
 /* Large */
 
 @include breakpoint(large) {
-  $size-header-width: 35%;
+  $size-header-width: 25%;
   $size-header-pad: 3em;
 
   /* Header */
