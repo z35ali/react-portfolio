@@ -10,9 +10,9 @@
     "websiteDesign": "Designed with Gatsby and React",
     "websiteGithub": "https://github.com/zafaraali/react-portfolio",
     "about": "I'm a Toronto based Full Stack Developer who curiously strives to develop clean and readable code to solve problems. I love to turn ideas into reality through code. I have experience in Agile environments and a variety of languages and tools.",
-    "hobbies": "My hobbies include going to the gym, coding, reading, and doing problem solving puzzles. My personality type is someone who is never satisfied and always feels a need to push myself!",
+    "hobbies": "My hobbies include going to the gym, coding, and reading. My personality type is someone who is never satisfied and always feels a need to push myself!",
     "contact": {
-      "contactTitle": "Get In Touch",
+      "contactTitle": "Contact",
       "contactMessage": " I would love to get in touch with you! Feel free to send me an email!",
       "email": "zafar.a.ali2@gmail.com",
       "github": "https://github.com/zafaraali/",
@@ -54,7 +54,7 @@
         "degree": "Honours Bachelor's of Science in Computer Science",
         "graduated": "October 2019",
         "descriptions": [
-          "During my time at Ryerson, I worked on many group projects utilizing the agile manifesto and GIT in order to meet deadlines accordingly without sacrificing application functionality."
+          "During my time at Ryerson, I worked on many group projects utilizing the agile manifesto and GitHub in order to meet deadlines accordingly without sacrificing application functionality."
         ],
         "diploma": "https://drive.google.com/open?id=1M6b4oVemERja3h-GCLzlYTL_e-h6nLOH"
       }
@@ -67,7 +67,7 @@
         "descriptions": [
           "Develop patient support program portals for pharmaceutical companies such as Merck, Pfizer, and Roche.",
           "Synchronize dev and test environments using a C# backend and React front end.",
-          "Collaborate with Project Managers, Design, and QA teams to ensure software validation and verification, creating issues on GitHub if fixes are necessary.",
+          "Collaborate with Project Managers, Design, and QA teams to ensure software validation, verification, creating issues on GitHub if fixes are necessary.",
           "Encapsulate all patient, clinic, and portal data within the circle of care in database and ensure authorized access."
         ]
       },
@@ -149,9 +149,6 @@
           },
           {
             "name": "Heroku"
-          },
-          {
-            "name": "Git"
           }
         ]
       },
