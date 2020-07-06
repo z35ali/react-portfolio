@@ -5,6 +5,12 @@ module.exports = {
     description: "Zafar Ali's Portfolio",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
