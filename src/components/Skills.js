@@ -8,7 +8,7 @@ export default function Skills(props) {
       <div className="skills">
         {skills.map((skill, i) => {
           return (
-            <div key={i}>
+            <div className="skill" key={i}>
               <h4>{skill.type}</h4>
               {skill.subSkills.map((subSkills, i) => {
                 return !(skill.type === 'Knowledge') ? (
