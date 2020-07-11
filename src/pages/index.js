@@ -39,7 +39,7 @@ export default class index extends Component {
       <Layout>
         {resumeData ? (
           <>
-            <Seo />
+            <Seo title={resumeData.main.siteTitle}/>
             <Header
               mainData={resumeData.main}
               avatar={resumeData.main.avatar}
