@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Helmet from 'react-helmet'
 import $ from 'jquery'
 import Header from '../components/Header'
 import Projects from '../components/Projects'
@@ -9,6 +8,7 @@ import Education from '../components/Education'
 import Work from '../components/Work'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
+import { Seo } from '../components/Seo'
 export default class index extends Component {
   constructor(props) {
     super(props)
@@ -39,13 +39,7 @@ export default class index extends Component {
       <Layout>
         {resumeData ? (
           <>
-            <Helmet>
-              <title>{resumeData.main.siteTitle}</title>
-              <meta
-                name="description"
-                content={resumeData.main.siteDescription}
-              />
-            </Helmet>
+            <Seo />
             <Header
               mainData={resumeData.main}
               avatar={resumeData.main.avatar}

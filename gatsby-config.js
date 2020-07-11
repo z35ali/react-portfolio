@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: "Zafar Ali's Portfolio",
     author: 'Zafar Ali',
-    description: "Zafar Ali's Portfolio",
+    description: 'Zafar Ali - Full Stack Developer',
+    url: 'https://zafaraali.com',
+    image: '/static/avatar.jpg',
   },
   plugins: [
     {
