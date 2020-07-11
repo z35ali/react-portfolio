@@ -27,31 +27,31 @@ export const Seo = ({ description, keywords, title, image, url, author }) => {
             meta={[
               {
                 name: `description`,
-                conent: metaDescription,
+                content: metaDescription,
               },
               {
                 name: `og:title`,
-                conent: metaTitle,
+                content: metaTitle,
               },
               {
                 name: `og:description`,
-                conent: metaDescription,
+                content: metaDescription,
               },
               {
                 name: `og:type`,
-                conent: `website`,
+                content: `website`,
               },
               {
                 name: `og:image`,
-                conent: metaImage,
+                content: metaImage,
               },
               {
                 name: `og:url`,
-                conent: metaUrl,
+                content: metaUrl,
               },
               {
-                name: ``,
-                conent: metaDescription,
+                name: `author`,
+                content: metaAuthor,
               },
             ].concat(
               metaKeywords && metaKeywords.length > 0
