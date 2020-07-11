@@ -74,6 +74,7 @@ const detailsQuery = graphql`
       siteMetadata {
         title
         description
+        url
         author
         image
       }
